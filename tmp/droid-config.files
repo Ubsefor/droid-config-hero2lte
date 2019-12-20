@@ -52,6 +52,10 @@
 /usr/share/environment/nemo/hybris.conf
 /etc/ofono/ril_subscription.conf
 /var/lib/environment/compositor/droid-hal-device.conf
+/edp17/minimer3.tar.gz
+/edp17/minimer/wallpaper.jpg
+/edp17/minimer/main.qml
+/edp17/minimer/FPSMonitor.qml
 /system/etc/audio_policy.conf
 /usr/lib/mozembedlite/chrome/embedlite/content/swisscows.xml
 /usr/lib/mozembedlite/chrome/embedlite/content/startpage.xml

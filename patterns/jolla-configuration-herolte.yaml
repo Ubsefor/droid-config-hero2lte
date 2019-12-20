@@ -39,6 +39,7 @@ Requires:
 
 - jolla-settings-system-flashlight
 - connman-tools
+- qt5-qtdeclarative-qmlscene
 
 Summary: Jolla Configuration herolte
 
