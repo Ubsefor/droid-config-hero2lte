@@ -1,10 +1,10 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-Description: Pattern with packages for herolte configurations
-Name: jolla-configuration-herolte
+Description: Pattern with packages for hero2lte configurations
+Name: jolla-configuration-hero2lte
 Requires:
-- pattern:jolla-hw-adaptation-herolte
+- pattern:jolla-hw-adaptation-hero2lte
 
 - patterns-sailfish-applications
 - patterns-sailfish-ui
@@ -41,5 +41,5 @@ Requires:
 - connman-tools
 - qt5-qtdeclarative-qmlscene
 
-Summary: Jolla Configuration herolte
+Summary: Jolla Configuration hero2lte
 

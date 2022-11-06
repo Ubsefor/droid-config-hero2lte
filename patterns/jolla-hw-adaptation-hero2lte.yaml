@@ -1,20 +1,20 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-Description: Pattern with packages for herolte HW Adaptation
-Name: jolla-hw-adaptation-herolte
+Description: Pattern with packages for hero2lte HW Adaptation
+Name: jolla-hw-adaptation-hero2lte
 Requires:
-- droid-hal-herolte
-- droid-hal-herolte-detritus
-- droid-hal-herolte-img-boot
-- droid-hal-herolte-kernel-modules
-- droid-config-herolte-sailfish
-- droid-config-herolte-pulseaudio-settings
-- droid-config-herolte-policy-settings
-- droid-config-herolte-preinit-plugin
-- droid-config-herolte-flashing
-- droid-config-herolte-bluez5
-- droid-hal-version-herolte
+- droid-hal-hero2lte
+- droid-hal-hero2lte-detritus
+- droid-hal-hero2lte-img-boot
+- droid-hal-hero2lte-kernel-modules
+- droid-config-hero2lte-sailfish
+- droid-config-hero2lte-pulseaudio-settings
+- droid-config-hero2lte-policy-settings
+- droid-config-hero2lte-preinit-plugin
+- droid-config-hero2lte-flashing
+- droid-config-hero2lte-bluez5
+- droid-hal-version-hero2lte
 
 # Hybris packages
 - libhybris-libEGL
@@ -84,5 +84,5 @@ Requires:
 #- nfcd-binder-plugin
 #- jolla-settings-system-nfc
 
-Summary: Jolla HW Adaptation herolte
+Summary: Jolla HW Adaptation hero2lte
 

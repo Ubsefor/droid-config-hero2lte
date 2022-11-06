@@ -1,7 +1,7 @@
-# DisplayName: Jolla herolte/@ARCH@ (release) 1
+# DisplayName: Jolla hero2lte/@ARCH@ (release) 1
 # KickstartType: release
-# DeviceModel: herolte
-# DeviceVariant: herolte
+# DeviceModel: hero2lte
+# DeviceVariant: hero2lte
 # Brand: Jolla
 # SuggestedImageType: fs
 # SuggestedArchitecture: armv7hl
@@ -16,18 +16,18 @@ part / --size 500 --ondisk sda --fstype=ext4
 
 ## No suitable configuration found in /tmp/sandbox/usr/share/ssu/kickstart/bootloader
 
-repo --name=adaptation-community-common-herolte-@RELEASE@ --baseurl=http://repo.merproject.org/obs/nemo:/devel:/hw:/common/sailfish_latest_@ARCH@/
+repo --name=adaptation-community-common-hero2lte-@RELEASE@ --baseurl=http://repo.merproject.org/obs/nemo:/devel:/hw:/common/sailfish_latest_@ARCH@/
 repo --name=apps-@RELEASE@ --baseurl=https://releases.jolla.com/jolla-apps/@RELEASE@/@ARCH@/
 repo --name=customer-jolla-@RELEASE@ --baseurl=https://releases.jolla.com/features/@RELEASE@/customers/jolla/@ARCH@/
 repo --name=hotfixes-@RELEASE@ --baseurl=https://releases.jolla.com/releases/@RELEASE@/hotfixes/@ARCH@/
 repo --name=jolla-@RELEASE@ --baseurl=https://releases.jolla.com/releases/@RELEASE@/jolla/@ARCH@/
 
 %packages
-@Jolla Configuration herolte
+@Jolla Configuration hero2lte
 %end
 
 %attachment
-### Commands from /tmp/sandbox/usr/share/ssu/kickstart/attachment/herolte
+### Commands from /tmp/sandbox/usr/share/ssu/kickstart/attachment/hero2lte
 /boot/hybris-boot.img
 /boot/hybris-updater-script
 /boot/hybris-updater-unpack.sh
@@ -135,7 +135,7 @@ export SSU_RELEASE_TYPE=release
 ### begin hybris
 pushd $IMG_OUT_DIR
 
-DEVICE=herolte
+DEVICE=hero2lte
 
 VERSION_FILE=./os-release
 source $VERSION_FILE
